@@ -34,7 +34,6 @@ export const fadeAnimation = {
     transition: { ...transition, delay: 0 },
   },
 };
-
 export const headTextAnimation = {
   initial: { x: 100, opacity: 0 },
   animate: { x: 0, opacity: 1 },
