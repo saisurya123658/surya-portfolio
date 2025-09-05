@@ -60,7 +60,6 @@ export const headContentAnimation = {
     delayChildren: 0.2,
   },
 };
-
 export const headContainerAnimation = {
   initial: { x: -100, opacity: 0, transition: { ...transition, delay: 0.5 } },
   animate: { x: 0, opacity: 1, transition: { ...transition, delay: 0 } },
