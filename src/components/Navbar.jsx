@@ -16,7 +16,6 @@ const Nav = styled.div`
   z-index: 10;
   color: white;
 `;
-
 const NavbarContainer = styled.div`
   width: 100%;
   max-width: 1200px;
