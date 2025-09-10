@@ -70,7 +70,6 @@ const ButtonContainer = styled.div`
     display: none;
   }
 `;
-
 const GithubButton = styled.a`
   border: 1px solid ${({ theme }) => theme.primary};
   color: ${({ theme }) => theme.primary};
