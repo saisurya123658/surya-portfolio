@@ -3,7 +3,6 @@ import { Link as LinkR } from "react-router-dom";
 import styled, { useTheme } from "styled-components";
 import { Bio } from "../Data/Data";
 import {  MenuRounded } from "@mui/icons-material";
-
 const Nav = styled.div`
   background-color: ${({ theme }) => theme.bg};
   height: 80px;
