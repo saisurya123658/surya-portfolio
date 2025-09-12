@@ -134,7 +134,6 @@ const EducationCard = ({ education }) => {
     </VerticalTimelineElement>
   );
 };
-
 export default EducationCard;
 
 
