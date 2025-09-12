@@ -135,5 +135,3 @@ const EducationCard = ({ education }) => {
   );
 };
 export default EducationCard;
-
-
