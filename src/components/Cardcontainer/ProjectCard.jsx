@@ -141,5 +141,4 @@ const ProjectCard = ({ project }) => {
     </Card>
   );
 };
-
 export default ProjectCard;
