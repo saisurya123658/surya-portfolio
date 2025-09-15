@@ -1,5 +1,7 @@
+
+import React, { useState, useEffect } from "react";
 import styled, { ThemeProvider } from "styled-components";
-import { darkTheme } from "./utils/Themes";
+import { darkTheme, lightTheme } from "./utils/Themes";
 import Navbar from "./components/Navbar";
 import { BrowserRouter } from "react-router-dom";
 import Hero from "./components/sections/Hero";
@@ -10,6 +12,8 @@ import StartCanvas from "./components/canvas/Stars";
 import Projects from "./components/sections/Projects";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
+import CodingProfilesTimeline from "./components/sections/codingprofiles";
+
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
@@ -34,9 +38,21 @@ const Wrapper = styled.div`
 `;
 
 function App() {
+  // Check localStorage for theme preference
+  const [isDark, setIsDark] = useState(() => {
+    const savedTheme = localStorage.getItem("theme");
+    return savedTheme ? savedTheme === "dark" : true;
+  });
+
+  // Save theme to localStorage whenever it changes
+  useEffect(() => {
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+  }, [isDark]);
+
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
       <BrowserRouter>
+        {/* Toggle Button */}
         <Navbar />
         <Body>
           <StartCanvas />
@@ -49,6 +65,7 @@ function App() {
             <Projects />
             <Wrapper>
               <Education />
+              <CodingProfilesTimeline />
               <Contact />
             </Wrapper>
             <Footer />
@@ -58,4 +75,5 @@ function App() {
     </ThemeProvider>
   );
 }
+
 export default App;
