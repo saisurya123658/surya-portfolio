@@ -145,6 +145,5 @@ const CodingProfileCard = ({ profile }) => {
     </VerticalTimelineElement>
   );
 };
-
 export default CodingProfileCard;
 
