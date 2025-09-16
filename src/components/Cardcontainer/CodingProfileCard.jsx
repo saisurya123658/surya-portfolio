@@ -146,4 +146,3 @@ const CodingProfileCard = ({ profile }) => {
   );
 };
 export default CodingProfileCard;
-
