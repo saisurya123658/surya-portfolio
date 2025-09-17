@@ -106,4 +106,4 @@ const HeroBgAnimation = () => (
     </svg>
   </Div>
 );
-export default HeroBgAnimation;
+export default HeroBgAnimation;s
