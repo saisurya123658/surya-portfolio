@@ -1,7 +1,7 @@
 import React from 'react';
 import { Div } from './profileanimationstyle';
 const HeroBgAnimation = () => (
-  <Div>
+  <Div> 
     <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
