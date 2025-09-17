@@ -1,6 +1,7 @@
 import React from 'react';
 import { Div } from './profileanimationstyle';
 const HeroBgAnimation = () => (
+  
   <Div>
     <svg
       className="BgAnimation__svg"
