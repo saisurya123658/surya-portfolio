@@ -86,7 +86,7 @@ const CardContainer = styled.div`
   align-items: center;
   gap: 28px;
   flex-wrap: wrap;
-  
+
 `;
 
 const Projects = () => {
