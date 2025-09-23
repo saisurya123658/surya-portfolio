@@ -21,7 +21,6 @@ const rotate = keyframes`
     stroke-dashoffset: -100;
   }
 `;
-
 const Title = styled.div`
   font-weight: 700;
   font-size: 50px;
