@@ -1,6 +1,5 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-
 // Floating animation (vertical float + slight rotation)
 const float = keyframes`
   0%   { transform: translate(0, 0) rotate(0deg); }
