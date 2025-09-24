@@ -1,7 +1,6 @@
 import React from "react";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 import styled, { keyframes } from "styled-components";
-
 const Top = styled.div`
   width: 100%;
   display: flex;
