@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 import styled, { keyframes } from "styled-components";
 
