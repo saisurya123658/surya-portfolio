@@ -103,7 +103,11 @@ const HeroBgAnimation = () => (
           <mpath xlinkHref="#path_0" />
         </animateMotion>
       </path>
+
+      {/* Add more animated ellipses and paths as needed */}
     </svg>
   </Div>
 );
-export default HeroBgAnimation;s
+
+export default HeroBgAnimation;
+
