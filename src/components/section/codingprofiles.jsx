@@ -1,5 +1,11 @@
+
+
+
+
+
 import React from "react";
 import styled, { keyframes } from "styled-components";
+
 // Floating animation (vertical float + slight rotation)
 const float = keyframes`
   0%   { transform: translate(0, 0) rotate(0deg); }
@@ -131,14 +137,13 @@ const Logo = styled.a`
   }
 `;
 
-// Profiles data
 const profiles = [
   { left: "10%", top: "15%", title: "LeetCode", img: "https://cdn.prod.website-files.com/66bc0319fce51f7e5568a809/66cccfa7da1895b49c7339f0_63da69688b48024c910050a1_Leetcode%2520main.webp", url: "https://leetcode.com/u/hema7228/", duration: "4.8s" },
-  { left: "25%", top: "70%", title: "HackerRank", img: "https://cdn.nwe.io/files/x/62/37/c30122710aaaf27ba163584f6194.png", url: "https://www.hackerrank.com/yourusername", duration: "4.2s" },
-  { left: "50%", top: "5%", title: "Codeforces", img: "https://store-images.s-microsoft.com/image/apps.48094.14504742535903781.aedbca21-113a-48f4-b001-4204e73b22fc.503f883f-8339-4dc5-8609-81713a59281f", url: "https://codeforces.com/profile/yourusername", size: "140px", duration: "5.6s" },
-  { left: "78%", top: "25%", title: "TakeUForward", img: "https://i.ytimg.com/vi/aRwYTDwGWLE/sddefault.jpg", url: "https://takeuforward.org", duration: "5.3s" },
+  { left: "25%", top: "70%", title: "HackerRank", img: "https://cdn.nwe.io/files/x/62/37/c30122710aaaf27ba163584f6194.png", url: "https://www.hackerrank.com/profile/suryateja7228", duration: "4.2s" },
+  { left: "50%", top: "5%", title: "Codeforces", img: "https://store-images.s-microsoft.com/image/apps.48094.14504742535903781.aedbca21-113a-48f4-b001-4204e73b22fc.503f883f-8339-4dc5-8609-81713a59281f", url: "https://codeforces.com/profile/surya7228", size: "140px", duration: "5.6s" },
+  { left: "78%", top: "25%", title: "TakeUForward", img: "https://i.ytimg.com/vi/aRwYTDwGWLE/sddefault.jpg", url: "https://takeuforward.org/plus/profile/Surya7228", duration: "5.3s" },
   { left: "80%", top: "65%", title: "CodeChef", img: "https://cdn.dribbble.com/userupload/20103349/file/original-a0411030f26482dcee9298419bf8d1c6.png?resize=752x&vertical=center", url: "https://www.codechef.com/users/shoal_trick_69", duration: "4.6s" },
-  { left: "45%", top: "82%", title: "Coding Ninjas", img: "https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/coding_ninjas_logo/original.png?1700174580", url: "https://www.codingninjas.com/codestudio/profile/yourusername", duration: "3.8s" },
+  { left: "45%", top: "82%", title: "Coding Ninjas", img: "https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/coding_ninjas_logo/original.png?1700174580", url: "https://www.naukri.com/code360/profile/e08e3387-5312-47a5-8364-e3d766c0cfa4", duration: "3.8s" },
 ];
 
 
