@@ -19,6 +19,7 @@ const Body = styled.div`
   overflow-x: hidden;
   position: relative;
 `;
+
 const Wrapper = styled.div`
   padding-bottom: 100px;
   background: linear-gradient(
