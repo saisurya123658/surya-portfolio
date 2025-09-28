@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { darkTheme, lightTheme } from "./utils/Themes";
