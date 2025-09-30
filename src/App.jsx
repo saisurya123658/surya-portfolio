@@ -12,7 +12,6 @@ import Projects from "./components/section/Projects";
 import Contact from "./components/section/Contact";
 import Footer from "./components/section/Footer";
 import CodingProfilesTimeline from "./components/section/codingprofiles";
-
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
