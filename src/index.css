@@ -19,7 +19,6 @@ body {
   width: 4px;
   height: 80px;
 }
-
 /* Track */
 ::-webkit-scrollbar-track {
   background: #222a35;
