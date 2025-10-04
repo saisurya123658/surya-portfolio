@@ -5,6 +5,7 @@ A personal portfolio showcasing projects, 3D experiments, AI work and modern web
 
 ---
 
+
 ## 🌟 About Me
 I’m Surya Teja — a passionate Full Stack Developer and Computer Science student focused on building modern, performant and secure web experiences. My interests include:
 
