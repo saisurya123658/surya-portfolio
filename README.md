@@ -15,7 +15,6 @@ I’m Surya Teja — a passionate Full Stack Developer and Computer Science stud
 - 🔒 Developer-first security practices
 
 ---
-
 ## 🛠️ Tech Stack
 - **Frontend:** React, Vite, Framer Motion, Tailwind CSS  
 - **Backend / Tools:** Node.js, Express (if needed)  
