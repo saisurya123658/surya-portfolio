@@ -1,6 +1,5 @@
 # 🚀 Surya Teja's Portfolio
 
-**Typing SVG**  
 A personal portfolio showcasing projects, 3D experiments, AI work and modern web UI/UX.
 
 
