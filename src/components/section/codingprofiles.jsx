@@ -1,11 +1,14 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
+
+// Floating animation (vertical float + slight rotation)
 const float = keyframes`
   0%   { transform: translate(0, 0) rotate(0deg); }
   50%  { transform: translate(0, -16px) rotate(2deg); }
   100% { transform: translate(0, 0) rotate(0deg); }
 `;
 
+// Glow pulse
 const pulse = keyframes`
   0% { transform: scale(1); opacity: 0.7; }
   50% { transform: scale(1.2); opacity: 0.4; }
@@ -111,11 +114,15 @@ const Logo = styled.a`
   box-shadow: 0 12px 35px rgba(2,6,23,0.6), inset 0 1px 0 rgba(255,255,255,0.03);
   backdrop-filter: blur(6px);
   cursor: pointer;
+
+  /* Floating animation */
   animation: ${float} ${({ duration }) => duration || "6s"} infinite ease-in-out;
+
   &:hover {
     transform: translateY(-10px) scale(1.06);
     box-shadow: 0 22px 55px rgba(0,0,0,0.75);
   }
+
   img {
     max-width: 100%;
     max-height: 100%;
@@ -132,7 +139,9 @@ const profiles = [
   { left: "78%", top: "25%", title: "TakeUForward", img: "https://i.ytimg.com/vi/aRwYTDwGWLE/sddefault.jpg", url: "https://takeuforward.org/plus/profile/Surya7228", duration: "5.3s" },
   { left: "80%", top: "65%", title: "CodeChef", img: "https://cdn.dribbble.com/userupload/20103349/file/original-a0411030f26482dcee9298419bf8d1c6.png?resize=752x&vertical=center", url: "https://www.codechef.com/users/shoal_trick_69", duration: "4.6s" },
   { left: "45%", top: "82%", title: "Coding Ninjas", img: "https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/coding_ninjas_logo/original.png?1700174580", url: "https://www.naukri.com/code360/profile/e08e3387-5312-47a5-8364-e3d766c0cfa4", duration: "3.8s" },
+  { left: "45%", top: "82%", title: "Coding Ninjas", img:"  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgsU4IWmumHDr1AnjKtMHSL5wkl9UUwU_zWQ&s", url: "  https://www.geeksforgeeks.org/user/surya7228/", duration: "3.8s" },
 ];
+
 
 const CodingProfilesFloating = () => {
   return (
