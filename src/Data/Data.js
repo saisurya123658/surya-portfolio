@@ -328,13 +328,12 @@ export const project = [
     category: "web app",
     github: "https://github.com/saisurya123658",
   },
-{
+  {
     id: 1,
     title: "Fintech IPO Management System",
-    date: "Nov 2024 - Dec 2024",
     description:
       "Bluestoch Fintech IPO Website is a cutting-edge platform designed to provide real-time insights, analysis, and investment opportunities in the IPO market. With a sleek interface and advanced financial tools, it offers seamless access to IPO listings, market trends, and secure transactions. Whether you're an investor or a financial institution, This ensures a transparent and efficient IPO investment experience.It is Just a Portfolio Project. I have created this project to showcase my skills and projects. The project is built using React Js, Node Js, and Tailwind CSS. The user interface is styled using Tailwind CSS, ensuring a visually appealing and intuitive design.",
-    image:
+    Image:
       "https://res.cloudinary.com/dh4adw5o7/image/upload/v1742482747/Portfolio%20Content/rjufwtykrf0mqlqrmzyl.png",
     tags: ["ReactJS", "NodeJS", "CSS", "Javascript", "HTML"],
     category: "web app",
@@ -363,6 +362,7 @@ export const codingProfiles = [
       { name: "CodeChef", img: "https://upload.wikimedia.org/wikipedia/commons/1/19/Codechef_logo.png" },
       { name: "Coding Ninjas", img: "https://upload.wikimedia.org/wikipedia/en/4/4c/CodingNinjas_Logo.png" },
       { name: "TakeUForward", img: "https://takeuforward.org/static/logo.png" },
+      { name: "geeksforgeeks", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgsU4IWmumHDr1AnjKtMHSL5wkl9UUwU_zWQ&s" },
     ],
   },
 ]
